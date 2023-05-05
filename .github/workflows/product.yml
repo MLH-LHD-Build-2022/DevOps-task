@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 env:
-  GCP_PROJECT_ID: devopss-task
+  GCP_PROJECT_ID: devops-task
   GCP_COMPUTE_ZONE: us-central1	
   GCP_CLUSTER_NAME: devops-task
   
