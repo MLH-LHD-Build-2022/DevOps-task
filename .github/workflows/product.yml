@@ -30,7 +30,7 @@ jobs:
       with:
         registry: gcr.io
         username: _json_key
-        password: ${{ secrets.GCP_SECRET_KEY }}
+        password: ${{ secrets.git  }}
 
     - name: Build Docker image
       run: |
